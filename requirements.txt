@@ -1,0 +1,3 @@
+pandas
+docker-compose
+pyspark
