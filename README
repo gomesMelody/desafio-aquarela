@@ -1,0 +1,30 @@
+# Desafio Aquarela
+
+## Descrição
+Este projeto é um desafio proposto pela Aquarela. O objetivo é desenvolver uma aplicação que atenda aos requisitos especificados.
+
+## Requisitos
+- Requisitos descritos no arquivo: Desafio Técnico para Data Engineer.pdf
+
+## Tecnologias Utilizadas
+- Linguagem de Programação: Python
+- Framework: Pyspark e Airflow
+
+## Como Executar
+
+1. Instale as dependências:
+    ```sh
+    pip install -r requirements.txt
+    ```
+2. Inicialize o Airflow:
+    ```sh
+    docker-compose up
+    ```
+3. Acesse o Airflow:
+    link de acesso: http://localhost:8080
+    user: airflow
+    senha: airflow
+
+4. Execute as Dags
+    Para executar as DAGs selecione a DAG desejada na lista e clice em Trigger DAG (botão com sinal de Play)
+
